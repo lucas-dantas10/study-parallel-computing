@@ -13,7 +13,7 @@ No código, um mutex garante que apenas uma thread por vez execute uma parte cr�
 A seção crítica é a parte do código onde dados compartilhados são lidos ou modificados. Se várias threads executarem essa parte ao mesmo tempo sem controle, podem ocorrer erros como dados incorretos ou corrompidos.
 
 #### 🔍 Como identificar uma Seção Crítica?
-- Você pode considerar uma parte do código como seção crítica quando:
+**Você pode considerar uma parte do código como seção crítica quando:**
 
 - Duas ou mais threads acessam a mesma variável ou estrutura de dados.
 
