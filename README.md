@@ -38,3 +38,14 @@ No código, um semáforo limita quantas threads podem acessar um recurso ao mesm
 
 👉 Ideal para controlar acesso concorrente com limite, como número máximo de conexões ou de tarefas em execução.
 
+### 💻 Algoritmo Centralizado (Centralized Algorithm)
+Um algoritmo centralizado é um tipo de algoritmo onde um único processo ou entidade tem a responsabilidade de coordenar 
+o acesso a recursos partilhados ou de tomar decisões em um sistema.
+
+- 📚 Conceito:
+
+    - Um coordenador central controla o acesso a recursos críticos.
+
+    - As outras máquinas pedem permissão ao coordenador para entrar na seção crítica.
+
+👉 Ideal para cenários com poucos processos e necessidade de simplicidade e consistência forte no controle de acesso a recursos compartilhados.
